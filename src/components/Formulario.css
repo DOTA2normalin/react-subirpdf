@@ -1,0 +1,21 @@
+.wrappe {
+   background-position: center center;
+   background: -webkit-radial-gradient(blue,green);
+    
+   width: 100vw;
+   height: 98vh;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap:  7rem;
+   padding: 0 2rem;
+ }
+
+ .for-wrapper {
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   padding: 20px 40px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 50px #555;
+   background-color: #ffffff;
+ }
